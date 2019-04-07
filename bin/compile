@@ -29,5 +29,5 @@ if [ ! -f "$DESTINATION/wkhtmltopdf" ]; then
 		mkdir -p "$DESTINATION"
 	fi
 
-	cp $WKHTMLTOPDF_PATH/bin/* $DESTINATION
+	cp $WKHTMLTOPDF_PATH/* $DESTINATION
 fi
